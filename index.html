@@ -112,7 +112,7 @@
 				<div class="statistic">
 					<ul>
 						<li>
-							<div class="stistic-top">
+							<div class="statistic-top">
 								<div class="statistic-top-icon"><i class="fas fa-chart-line"></i></div>
 								<span>Statistics</span>
 								<div class="statistic-top-icon-down"><i class="fas fa-sort-down"></i></div>
@@ -124,7 +124,7 @@
 							</div>
 						</li>
 						<li>
-							<div class="stistic-top">
+							<div class="statistic-top">
 								<div class="statistic-top-icon"><i class="fas fa-envelope"></i></div>
 								<span>inbox</span>
 								<div class="statistic-top-icon-down"><i class="fas fa-sort-down"></i></div>
@@ -136,7 +136,7 @@
 							</div>
 						</li>
 						<li>
-							<div class="stistic-top">
+							<div class="statistic-top">
 								<div class="statistic-top-icon"><i class="fas fa-user-friends"></i></div>
 								<span>team</span>
 								<div class="statistic-top-icon-down"><i class="fas fa-sort-down"></i></div>
@@ -148,7 +148,7 @@
 							</div>
 						</li>
 						<li>
-							<div class="stistic-top">
+							<div class="statistic-top">
 								<div class="statistic-top-icon"><i class="fas fa-cog"></i></div>
 								<span>settings</span>
 								<div class="statistic-top-icon-down"><i class="fas fa-sort-down"></i></div>
@@ -160,7 +160,7 @@
 							</div>
 						</li>
 						<li>
-							<div class="stistic-top">
+							<div class="statistic-top">
 								<div class="statistic-top-icon"><i class="fas fa-rss"></i></div>
 								<span>feed</span>
 								<div class="statistic-top-icon-down"><i class="fas fa-sort-down"></i></div>
@@ -289,5 +289,13 @@
 		</div>
 	</footer>
 	<script src="js/all.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $("statistic-top").click(function(){
+	    $("statictic-bottom").toggle();
+	  });
+	});
+	</script>
 </body>
 </html>
