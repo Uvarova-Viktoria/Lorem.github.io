@@ -527,13 +527,24 @@ body {
 		position: relative;
 	}
 }
+@media (max-width: 1217px){
+		.nav-item-btn {
+			margin-right: 20px;
+		}
+		.page-contact form textarea {
+		    padding: 17px 366px 122px 20px;
+		}
+		.title-video {
+			position: relative;
+			top: 50px;
+			right: 20px;
+		}
+
+}
 @media (max-width: 1024px){
 	.nav-item-btn {
     	margin-left: 118px;
 	    margin-right: 25px;
-	}
-	.title-video {
-		display: none;
 	}
 	.statictic-bottom {
 		flex-wrap: wrap;
@@ -562,22 +573,68 @@ body {
 	.footer-nav, .footer-bottom {
 		justify-content: space-around;
 	}
-	.footer-us {
-	    margin-left: -61px;
-	}
 
+}
+@media (max-width: 950px) {
+		.head {
+			display: block;
+		}
+		.nav {
+			display: block;
+			
+		}
+		.nav-item-btn {
+			margin-top: 20px;
+			margin-left: 0;
+		}
+}
+@media (max-width: 926px) {
+		.page-contact form textarea {
+		    padding: 17px 296px 122px 20px;
+		}
 }
 @media (max-width: 900px) {
 	.head {
-		flex-wrap: wrap;
+		/*flex-wrap: wrap;*/
 	}
 	.page-contact form textarea {
 	    padding: 17px 295px 122px 20px;
 	}
+	.box {
+		display: block;
+		align-items: center;
+	}
+	.box-item {
+		margin-right: 15px;
+		margin-left: 15px;
+		max-width: 100%;
+	}
+	.statictic-bottom img {
+	    width: 100%;
+	}
+}
+@media (max-width: 800px) {
+	.box-stat {
+		flex-wrap: wrap;
+	}
+	.box-stat-item {
+		overflow: auto; 
+		flex-basis: 100%;
+	}
 }
 @media (max-width: 620px) {
+	
+	.logo {
+		  margin-top: 19px;
+	}
 	.nav {
-	    margin-top: 35px;
+			margin-top: 13px;
+	}
+	.nav-item {
+			margin-left: 0;
+	}
+	.title-video {
+		display: none;
 	}
 	.page-title {
 	    margin-top: 77px;
@@ -589,13 +646,7 @@ body {
 	.box-item {
 		margin-right: 0;
 	}
-	.box-stat {
-		flex-wrap: wrap;
-	}
-	.box-stat-item {
-		overflow: auto; 
-		flex-basis: 100%;
-	}
+	
 	.wrapper-2 {
 	    width: 100%;
 	    max-width: 473px;
@@ -609,11 +660,28 @@ body {
 	.page-bg {
 	    padding-bottom: 174px;
 	}
+	.page-team .people {
+		display: block;
+	}
+	.page-team .people li {
+	    margin-right: 59px;
+	    margin-top: 14px;
+	}
 	.wrapper-3 {
 	    width: 77%;
 	}
 	.footer-nav, .footer-bottom {
-	  
-	    flex-wrap: wrap;
+	  		display: block;
+	    /*flex-wrap: wrap;*/
+	}
+	.social-icon {
+	    justify-content: flex-start; 
+	}
+}
+@media (max-width: 400px) {
+	.title .btn-try {
+	    margin-left: 0;
+	    display: block;
+	    margin-top: 20px;
 	}
 }
